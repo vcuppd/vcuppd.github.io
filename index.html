@@ -13,244 +13,296 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style>
-    #logo {
-      padding: 10px;
-    }
-    
-    #header {
-      background-color: #eff6f9; /*original color: #B5D6E7*/
-      margin: 0px;
-    }
-    
-    #text-adjust {
-      float: right;
-      padding-top: 10px;
-      padding-right: 190px;
-    }
-    
-    a, a:visited, a:active {
-      color: #000;
-      text-decoration: none;
-    }
-    
-    a:hover{
-      color: blue;
-      text-decoration: none;
-    }
-    
-    .container {
-      padding-top: 10px;
-    }
-    
-    /*Removes space above menu*/
-    .navbar {
-      background-color: #eff6f9; /*original color: #B5D6E7*/
-      padding-top: 10px;
-      border: none;
-    }
-    
-    .navbar .nav {
-      margin-bottom: 20px;
-    }
-    
-    .navbar-collapse {
-      padding-left: 170px;
-    }
-    
-    .navbar-header .btn {
-      margin-right: 5px;
-    }
+      #logo {
+        padding: 10px;
+      }
       
-    /*Lines up search input with menu*/
-    .form-group {
-      margin-top: -8px;
-    }
-    
-    /*Lines up search button with input*/
-    #search-btn {
-      margin-left: -5px;
-      margin-top: -8px;
-    }
-    
-    /*Possibly menu slide option*/
-    /*.isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
-      background: #181a1c;
-      color:#fff ;
-    }
-    .isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
-      background:#181a1c;
-      color:#fff;
-    }
-    .isStuck .navbar.navbar-inverse.navbar-static-top a{
-      color:#000;
-    }
-    .stuckMenu{
-      -o-transition: all .5s;
-        -ms-transition: all .5s;
-        -moz-transition: all .5s;
-        -webkit-transition: all .5s;
-        transition: all .5s;
+      #header {
+        background-color: #eff6f9; /*original color: #B5D6E7*/
+        margin: 0px;
+      }
       
-      background: transparent;
-    }
-    .isStuck{
-      background:#ff554e ;
+      #text-adjust {
+        float: right;
+        padding-top: 10px;
+        padding-right: 190px;
+      }
       
-      -o-transition: all .5s;
-        -ms-transition: all .5s;
-        -moz-transition: all .5s;
-        -webkit-transition: all .5s;
-        transition: all .5s;
-    }*/
-    
-    
-    /*Remove space btwn carousel and menu*/
-    .carousel {
-      top: -20px;
-      width: 100%;
-      margin: 0px auto;
-    }
-    
-    /*Centers carousel image*/
-    .carousel-inner > .item > img {
-      margin: 0 auto;
-    }
-    
-    .navbar-default,
-    #myCarousel,
-    #welcome,
-    #news-events,
-    #programs,
-    #education-training {
-      border-bottom: #000 solid 3px; /*for layout - delete later*/
-    }
-    
-    #welcome-header{
-      margin-top: -3px;
-      margin-bottom: 20px;
-    }
-    
-    #welcome-text,
-    #news {
-      border-right: #eee solid 5px;
-    }
-    
-    #welcome p,
-    #training p {
-      padding-bottom: 15px;
-    }
-    
-    #welcome p,
-    img {
-      margin: 0px 80px;
-    }
-    
-    #directorPhoto {
-      padding: 5px 12px;
-    }
-    
-    #mission-title,
-    #learn-more {
-      padding-left: 30px;
-    }
-    
-    #mission-statement {
-      margin: 10px 30px;
-    }
-    
-    #learn-more {
-      margin-top: 25px;
-    }
-    
-    #learn-more-list,
-    #training-list {
-      list-style: none;
-      margin-left: 10px;
-    }
-    
-    #learn-more-list li,
-    #training-list li {
-      padding-bottom: 5px;
-    }
-    
-    #training-text{
-      margin-left: 75px;
-    }
-    
-    #news img,
-    #events img {
-      margin: 0px 15px 0px 0px;
-    }
-    
-    .list-group {
-      margin: 0px 50px;
-    }
-    
-    .list-group-item {
-      padding: 25px 15px;
-      margin: 0px 20px;
-    }
-    
-    #program-header {
-      margin-top: 20px;
-    }
-    
-    #education p,
-    #health p,
-    #family p {
-      margin: 15px 90px;
-    }
-    
-    #training p {
-      margin: 15px 50px;
-    }
-    
-    #training-img {
-      padding-bottom: 20px;
-    }
-    
-    #training-list li {
-      padding-top: 5px;
-    }
-    
-    footer{
-      color: #fff;
-      background-color: #000;
-    }
-    
-    #contact {
-      margin-left: 40px;
-    }
-    
-    #school-links {
-      list-style: none;
-      margin-left: -15px;
-    }
-    
-    #footer-menu,
-    #social {
-      list-style: none;
-    }
-    
-    #footer-menu a, a:visited, a:hover,a:active {
-      color: #fff;
-      text-decoration: none;
-    }
-    
-    #social li i {
-      font-size: 22px;
-    }
+      a, a:visited, a:active {
+        color: #000;
+        text-decoration: none;
+      }
+      
+      a:hover{
+        color: blue;
+        text-decoration: none;
+      }
+      
+      .container {
+        padding-top: 10px;
+      }
+      
+      /*Removes space above menu*/
+      .navbar {
+        background-color: #eff6f9; /*original color: #B5D6E7*/
+        padding-top: 10px;
+        border: none;
+      }
+      
+      .navbar .nav {
+        margin-bottom: 20px;
+      }
+      
+      .navbar-collapse {
+        padding-left: 170px;
+      }
+      
+      .navbar-header .btn {
+        margin-right: 5px;
+      }
+        
+      /*Lines up search input with menu*/
+      .form-group {
+        margin-top: -8px;
+      }
+      
+      /*Lines up search button with input*/
+      #search-btn {
+        margin-left: -5px;
+        margin-top: -8px;
+      }
+      
+      /*Possibly menu slide option*/
+      /*.isStuck .navbar-inverse .navbar-nav>.active>a, .isStuck .navbar-inverse .navbar-nav>.active>a:focus{
+        background: #181a1c;
+        color:#fff ;
+      }
+      .isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
+        background:#181a1c;
+        color:#fff;
+      }
+      .isStuck .navbar.navbar-inverse.navbar-static-top a{
+        color:#000;
+      }
+      
+      .stuckMenu{
+        -o-transition: all .5s;
+          -ms-transition: all .5s;
+          -moz-transition: all .5s;
+          -webkit-transition: all .5s;
+          transition: all .5s;
+        
+        background: transparent;
+      }
+      .isStuck{
+        background:#ff554e ;
+        
+        -o-transition: all .5s;
+          -ms-transition: all .5s;
+          -moz-transition: all .5s;
+          -webkit-transition: all .5s;
+          transition: all .5s;
+      }*/
+      
+      
+      /*Remove space btwn carousel and menu*/
+      .carousel {
+        top: -20px;
+        width: 100%;
+        margin: 0px auto;
+        padding: none;
+      }
+      
+      .carousel-inner{
+        background-color: #644764;
+      }
+      
+      /*Centers carousel image*/
+      .carousel-inner > .item > img {
+        margin: 0 auto;
+      }
+      
+      /*.navbar-default,
+      #myCarousel,
+      #welcome,
+      #news-events,
+      #programs,
+      #education-training {
+        border-bottom: #000 solid 3px; /*for layout - delete later
+      }*/
+      
+      .navbar-default, #myCarousel{
+        border-bottom: #644764 solid 4px;
+      }
+      
+      #welcome{
+        background-color: #fefefe;
+      }
+      
+      #welcome-header{
+        margin-top: -3px;
+        margin-bottom: 20px;
+      }
+      
+      #welcome-text
+      /*#news*/ {
+        border-right: #eee solid 5px;
+      }
+      
+      #welcome p,
+      #training p {
+        padding-bottom: 15px;
+      }
+      
+      #welcome p,
+      img {
+        margin: 0px 80px;
+      }
+      
+      #directorPhoto {
+        padding: 5px 12px;
+      }
+      
+      #mission-title,
+      #learn-more {
+        padding-left: 30px;
+      }
+      
+      #mission-statement {
+        margin: 10px 30px;
+      }
+      
+      #learn-more {
+        margin-top: 25px;
+      }
+      
+      #learn-more-list,
+      #training-list {
+        list-style: none;
+        margin-left: 10px;
+      }
+      
+      #learn-more-list li,
+      #training-list li {
+        padding-bottom: 5px;
+      }
+      
+      #training-text{
+        margin-left: 75px;
+      }
+      
+      #news-events, #education-training{
+        background-color: rgba(239, 246, 249, 0.71);
+      }
+      
+      #news-events{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-top: #644764 solid 4px;
+        border-bottom: #644764 solid 4px;
+      }
+      
+      #news img,
+      #events img {
+        margin: 0px 15px 0px 0px;
+      }
+      
+      .list-group {
+        margin: 0px 50px;
+      }
+      
+      .list-group-item {
+        padding: 25px 15px;
+        margin: 0px 20px;
+      }
+      
+      #programs{
+        border-bottom: #644764 solid 4px;
+        padding-top: -10px;
+        padding-bottom: 35px;
+      }
+      
+      #program-header {
+        margin-top: 20px;
+      }
+      
+      #education-training{
+        padding: 10px 0 20px 0;
+      }
+      
+      #education p,
+      #health p,
+      #family p {
+        margin: 15px 90px;
+      }
+      
+      #training p {
+        margin: 15px 50px;
+      }
+      
+      #training-img {
+        padding-bottom: 20px;
+      }
+      
+      #training-list li {
+        padding-top: 5px;
+      }
+      
+      footer{
+        color: #fff;
+        background-color: #644764;
+      }
+      
+      footer a{
+        color: #fff;
+      }
+      
+      footer a:visited, 
+      #footer-menu a:visited{
+        color:#000;
+        font-weight: bold;
+      }
+      
+      footer a:hover, 
+      #footer-menu a:hover{
+        color: #fff;
+        text-decoration: underline;
+      }
+      
+      #contact {
+        margin-left: 40px;
+      }
+      
+      #school-links {
+        list-style: none;
+        margin-left: -15px;
+      }
+      
+      #footer-menu,
+      #social {
+        list-style: none;
+      }
+      
+      #footer-menu a, a:active {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      #social li i {
+        font-size: 22px;
+        color: #fff;
+      }
 
     </style>
   </head>
   
 <body>
 
-  <!--header-->
+<!--header-->
 <div class="col-12-md">
   <div id="header" class="row">
     <!--logo-->
-    <img id="logo" class="img-responsive" src="http://partnership.vcu.edu/media/partnership/img/header.png" alt="Partnership for People with Disabilities department logo" />
+    <a href="index.html"><img id="logo" class="img-responsive" src="http://partnership.vcu.edu/media/partnership/img/header.png" alt="Partnership for People with Disabilities department logo" /></a>
     <!--end logo-->
   </div>
 
@@ -315,21 +367,21 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="img-responsive center-block" src="http://placehold.it/700x320" alt="placeholder">
+          <img class="img-responsive center-block" src="http://lorempixel.com/980/320/people/7" alt="placeholder">
           <div class="carousel-caption">
             <h3>Image 01</h3>
             <p>Image description</p>
           </div>
         </div>
         <div class="item">
-          <img class="img-responsive center-block" src="http://placehold.it/700x320" alt="placeholder">
+          <img class="img-responsive center-block" src="http://lorempixel.com/980/320/people/4" alt="placeholder">
           <div class="carousel-caption">
             <h3>Image 02</h3>
             <p>Image description</p>
           </div>
         </div>
         <div class="item">
-          <img class="img-responsive center-block" src="http://placehold.it/700x320" alt="placeholder">
+          <img class="img-responsive center-block" src="http://lorempixel.com/980/320/people/2" alt="placeholder">
           <div class="carousel-caption">
             <h3>Image 03</h3>
             <p>Image description</p>
@@ -366,7 +418,7 @@
 
     <p class="text-justify">We are grateful to our staff, partners, and funders for their tremendous support of the Partnership's efforts on behalf of individuals with disabilities and their families.</p>
 
-    <img id="directorPhoto" class="img-responsive pull-left" src="http://placehold.it/119" alt="placeholder">
+    <img id="directorPhoto" class="img-responsive pull-left" src="http://lorempixel.com/119/119" alt="placeholder">
 
     <p><strong><i>Sincerely,</i></strong></p>
 
@@ -411,12 +463,14 @@
 
     <div id="news">
 
-      <h3 class="text-center">News</h3>
+   
 
       <!--article-->
       <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-info">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
+        <h3 class="text-center list-group-item">News</h3>
+
+        <a href="#" class="list-group-item">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
           <h4 class="list-group-item-heading">News Article Title</h4>
           <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
             spare ribs pork chop rump. </p>
@@ -424,15 +478,7 @@
 
         <!--article-->
         <a href="#" class="list-group-item">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
-          <h4 class="list-group-item-heading">News Article Title</h4>
-          <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
-            spare ribs pork chop rump. </p>
-        </a>
-
-        <!--article-->
-        <a href="#" class="list-group-item list-group-item-info">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
           <h4 class="list-group-item-heading">News Article Title</h4>
           <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
             spare ribs pork chop rump. </p>
@@ -440,7 +486,15 @@
 
         <!--article-->
         <a href="#" class="list-group-item">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
+          <h4 class="list-group-item-heading">News Article Title</h4>
+          <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
+            spare ribs pork chop rump. </p>
+        </a>
+
+        <!--article-->
+        <a href="#" class="list-group-item">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
           <h4 class="list-group-item-heading">News Article Title</h4>
           <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
             spare ribs pork chop rump. </p>
@@ -463,12 +517,12 @@
 
     <div id="events">
 
-      <h3 class="text-center">Events</h3>
-
       <!--events list-->
       <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-info">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
+        <h3 class="text-center list-group-item">Events</h3>
+
+        <a href="#" class="list-group-item">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95"alt="placeholder image">
           <h4 class="list-group-item-heading">Event Title</h4>
           <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
             spare ribs pork chop rump. </p>
@@ -476,15 +530,7 @@
 
         <!--event-->
         <a href="#" class="list-group-item">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
-          <h4 class="list-group-item-heading">Event Title</h4>
-          <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
-            spare ribs pork chop rump. </p>
-        </a>
-
-        <!--event-->
-        <a href="#" class="list-group-item list-group-item-info">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
           <h4 class="list-group-item-heading">Event Title</h4>
           <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
             spare ribs pork chop rump. </p>
@@ -492,7 +538,15 @@
 
         <!--event-->
         <a href="#" class="list-group-item">
-          <img class="img-responsive img-rounded pull-left" src="http://placehold.it/95" alt="placeholder image">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
+          <h4 class="list-group-item-heading">Event Title</h4>
+          <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
+            spare ribs pork chop rump. </p>
+        </a>
+
+        <!--event-->
+        <a href="#" class="list-group-item">
+          <img class="img-responsive img-rounded pull-left" src="http://lorempixel.com/95/95" alt="placeholder image">
           <h4 class="list-group-item-heading">Event Title</h4>
           <p class="list-group-item-text">Bacon ipsum dolor amet pork loin doner ribeye cupim, tri-tip pancetta andouille pork chop prosciutto sausage shankle tenderloin. Boudin meatball spare ribs shank turducken, chicken bresaola. Filet mignon shank ground round, pork porchetta boudin
             spare ribs pork chop rump.</p>
@@ -525,8 +579,10 @@
   <!--education-->
   <div id="education" class="col-md-4 text-left">
     <h3 class="text-center">Early Intervention Education</h3>
-    <img class="img-resposive center-block" src="http://placehold.it/240x75" alt="placeholder image">
-    <p class="text-justify">The Partnership for People with Disabilities is recognized throughout the Commonwealth of Virginia for its strong programs supporting families, individuals, and service providers in the Early Intervention/Education arena. All children, including those with disabilities, deserve the supports they need to excel in their homes, schools, and communities. To foster this level of success, the Partnership is working to equip family members, health care providers, preschool teachers, child care providers, and others serving who serve infants and young children and their families with the awareness, knowledge, and skills through technical assistance and training needed to make a difference in their lives.</p>
+    <img class="img-resposive center-block" src="http://lorempixel.com/240/75" alt="placeholder image">
+    <p class="text-justify">The Partnership for People with Disabilities is recognized throughout the Commonwealth of Virginia for its strong programs supporting families, individuals, and service providers in the Early Intervention/Education arena. All children, including those with disabilities, deserve the supports they need to excel in their homes, schools, and communities.</p>
+
+    <p class="text-justify">To foster this level of success, the Partnership is working to equip family members, health care providers, preschool teachers, child care providers, and others serving who serve infants and young children and their families with the awareness, knowledge, and skills through technical assistance and training needed to make a difference in their lives.</p>
 
     <p class="text-center">View our list of programs <i class="fa fa-angle-double-right"></i></p>
   </div>
@@ -534,8 +590,12 @@
   <!--health-->
   <div id="health" class="col-md-4 text-center">
     <h3 class="text-center">Health and Development</h3>
-    <img class="img-resposive center-block" src="http://placehold.it/240x75" alt="placeholder image">
-    <p class="text-justify">All children benefit from receiving early and consistent services and supports that meet their developmental needs in a welcoming, inclusive environment. This is particularly true of health care. Children and adults with disabilities are at risk for having special health care needs that often are not adequately addressed by health care professionals. The Partnership for People with Disabilities is committed to implementing projects and activities that support the training of health care and related professionals and paraprofessionals in interdisciplinary settings. Our goal is to reduce the disparities that families and people with disabilities experience when accessing health care and related services.  Key program areas focus on issues of health promotion, health professionals as education team members, justice for underrepresented populations, and maltreatment of people with disabilities. All activities are weighted toward creating environments where children and their families can learn, grow, and experience fulfilling lives in supportive communities.</p>
+    <img class="img-resposive center-block" src="http://lorempixel.com/240/75" alt="placeholder image">
+    <p class="text-justify">All children benefit from receiving early and consistent services and supports that meet their developmental needs in a welcoming, inclusive environment. This is particularly true of health care. Children and adults with disabilities are at risk for having special health care needs that often are not adequately addressed by health care professionals.</p>
+
+    <p class="text-justify">The Partnership for People with Disabilities is committed to implementing projects and activities that support the training of health care and related professionals and paraprofessionals in interdisciplinary settings. Our goal is to reduce the disparities that families and people with disabilities experience when accessing health care and related services.</p>
+
+    <p class="text-justify">Key program areas focus on issues of health promotion, health professionals as education team members, justice for underrepresented populations, and maltreatment of people with disabilities. All activities are weighted toward creating environments where children and their families can learn, grow, and experience fulfilling lives in supportive communities.</p>
 
     <p class="text-center">View our list of programs <i class="fa fa-angle-double-right"></i></p>
   </div>
@@ -543,7 +603,7 @@
   <!--family-->
   <div id="family" class="col-md-4 text-right">
     <h3 class="text-center">Family &amp; Individual <br/> Involvement and Support</h3>
-    <img class="img-resposive center-block" src="http://placehold.it/240x75" alt="placeholder image">
+    <img class="img-resposive center-block" src="http://lorempixel.com/240/75" alt="placeholder image">
     <p class="text-justify">It is a strategic goal of the Partnership for People with Disabilities to promote community acceptance and support for individuals with disabilities and their families. Our work is guided by the principles of self determination and person-centered practices. The Partnership is committed to supporting individuals in making their voices heard.</p>
 
     <p class="text-justify">Through self-advocacy activities at the Partnership, youth and adults with disabilities have information and support to speak for themselves and be leaders in their home communities and in state-level activities. The Partnership is committed to helping agencies and organizations deliver person-centered and user-friendly services and supports in neighborhoods and communities.</p>
@@ -565,17 +625,15 @@
 
   <div class="col-md-6">
     <div id="training-text">
-      <p class="text-justify">Bacon ipsum dolor amet ball tip flank chicken, sausage hamburger tenderloin capicola turducken. Biltong short loin spare ribs, shankle rump kielbasa andouille jerky corned beef strip steak bresaola prosciutto pig. Short ribs biltong filet mignon
-        pork chop pork loin fatback kevin alcatra tenderloin meatloaf. Short loin venison swine, pork loin corned beef pork chop jowl kielbasa pancetta sirloin meatloaf strip steak capicola tongue.</p>
+      <p class="text-justify">Bacon ipsum dolor amet ball tip flank chicken, sausage hamburger tenderloin capicola turducken. Biltong short loin spare ribs, shankle rump kielbasa andouille jerky corned beef strip steak bresaola prosciutto pig. Short ribs biltong filet mignon pork chop pork loin fatback kevin alcatra tenderloin meatloaf. Short loin venison swine, pork loin corned beef pork chop jowl kielbasa pancetta sirloin meatloaf strip steak capicola tongue.</p>
 
-      <p class="text-justify">Salami shank frankfurter, ball tip filet mignon doner pancetta turkey capicola beef brisket spare ribs. Pork chop pastrami flank shoulder corned beef. Pork venison tongue boudin filet mignon. Boudin prosciutto ham hock flank jerky bresaola doner.
-        Biltong tail cupim short loin, shank salami tri-tip. Fatback short ribs cow strip steak pork. Hamburger ham pastrami swine, meatloaf meatball brisket pork loin pork belly chicken jerky prosciutto.</p>
+      <p class="text-justify">Salami shank frankfurter, ball tip filet mignon doner pancetta turkey capicola beef brisket spare ribs. Pork chop pastrami flank shoulder corned beef. Pork venison tongue boudin filet mignon. Boudin prosciutto ham hock flank jerky bresaola doner. Biltong tail cupim short loin, shank salami tri-tip. Fatback short ribs cow strip steak pork. Hamburger ham pastrami swine, meatloaf meatball brisket pork loin pork belly chicken jerky prosciutto.</p>
     </div>
   </div>
   <!--end training area-->
 
   <div class="col-md-6">
-    <img id="training-img" class="img-responsive" src="http://placehold.it/300x140" alt="placeholder image">
+    <img id="training-img" class="img-responsive" src="http://lorempixel.com/300/140" alt="placeholder image">
 
     <ul id="training-list">
       <li>Opportunities for Individuals and Families <i class="fa fa-angle-double-right"></i></li>
@@ -592,10 +650,10 @@
 <footer>
   <div id="footer-top" class="row">
     <!--footer address-->
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="row">
         <div id="contact">
-          <h2 class="text-left">Partnership for People with Disabilities</h2>
+          <h3 class="text-left">Partnership for People with Disabilities</h3>
           <address class="text-left">
           700 East Franklin Street<br/>
           1st Floor, Suite 140<br/>
@@ -608,9 +666,20 @@
     </div>
     <!--end footer address area-->
 
+    <!--T/TAC header-->
+    <div class="col-md-4">
+      <h3>Training and Technical Assistance Center</h3>
+       <address class="text-left">
+          700 East Franklin Street<br/>
+          1st Floor, Suite 140<br/>
+          Richmond, Virginia 23219<br/>
+          <strong>Phone: </strong>804-828-3876 (Voice)<br/>
+        </address>
+    </div>
+
     <!--more ways to get in touch-->
-    <div class="col-md-6">
-      <h2>More Ways To Get In Touch</h2>
+    <div class="col-md-4">
+      <h3>More Ways To Get In Touch</h3>
       <address id="more-contact">
           <strong>Email Us: </strong> bjpiguet@vcu.edu<br/>
           800-828-1120 (TDD Relay)<br/>
@@ -626,10 +695,10 @@
     <!--school and department links-->
     <div class="col-md-4">
       <ul id="school-links">
-        <li>Virginia Commonwealth University</li>
-        <li>School of Education</li>
-        <li>PPD Intranet</li>
-        <li>HR Announcements</li>
+        <li><a href="http://www.vcu.edu">Virginia Commonwealth University</a></li>
+        <li><a href="http://www.soe.vcu.edu">School of Education</a></li>
+        <li><a href="http://www.pubinfo.vcu.edu/partnership2/default.asp">PPD Intranet</a></li>
+        <li><a href="http://wp.vcu.edu/fiscalandhr/">HR Announcements</a></li>
         <li>Last Updated 11/2/2015</li>
       </ul>
     </div>
@@ -637,10 +706,10 @@
     <!--footer menu-->
     <div class="col-md-4">
       <ul id="footer-menu">
-        <li>Mission and Values</li>
-        <li>News and Events</li>
-        <li>Our Programs</li>
-        <li>Education and Training</li>
+        <li><a href="#welcome">Mission and Values</a></li>
+        <li><a href="#news-events">News and Events</a></li>
+        <li><a href="#programs">Our Programs</a></li>
+        <li><a href="#education-training">Education and Training</a></li>
       </ul>
     </div>
 
@@ -649,7 +718,7 @@
       <ul id="social">
         <li>
           <h3>Social Media</h3></li>
-        <li><i class="fa fa-facebook"></i></li>
+        <li><a href="https://www.facebook.com/pages/Partnership-for-People-with-Disabilities/411203095631256"><i class="fa fa-facebook"></i></a></li>
       </ul>
     </div>
 
