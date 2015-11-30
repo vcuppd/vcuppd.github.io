@@ -1,0 +1,502 @@
+/*--General Styles--*/
+#text-adjust {
+  float: right;
+  padding-top: 10px;
+  padding-right: 190px;
+}
+
+a {
+  color: #005883;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:visited{
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover{
+  color: #005883;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.container-fluid{
+  padding-bottom: 30px;
+}
+
+.row-adjust{
+  margin-left: -5px;
+}
+
+.navbar-default, #myCarousel{
+  border-bottom: #644764 solid 2px;
+}
+
+#learn-more-list,
+#training-list {
+  list-style: none;
+  margin-left: 10px;
+}
+
+#learn-more-list li,
+#training-list li {
+  padding-bottom: 5px;
+}
+
+.list-group {
+  margin: 0px 50px;
+}
+
+.list-group-item {
+  padding: 25px 15px;
+  margin: 0px 20px;
+  border: 1px solid #644764;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Site Header--*/
+#logo {
+  padding: 10px;
+}
+
+#header {
+  background-color: #eff6f9; /*original color: #B5D6E7*/
+  margin: 0px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Navigation Styles--*/
+/*Removes space above menu*/
+.navbar {
+  background-color: #eff6f9; /*original color: #B5D6E7*/
+  padding-top: 10px;
+  border: none;
+}
+
+.navbar .nav {
+  margin-bottom: 20px;
+}
+
+.navbar-collapse {
+  padding-left: 170px;
+}
+
+.navbar-header .btn {
+  margin-right: 5px;
+}
+  
+/*Lines up search input with menu*/
+.form-group {
+  margin-top: -8px;
+}
+
+/*Lines up search button with input*/
+#search-btn {
+  margin-left: -5px;
+  margin-top: -8px;
+}
+
+.breadcrumb{
+  margin-top: -20px;
+  border-top: #644764 solid 2px;
+}
+
+.breadcrumb a, 
+.breadcrumb a:visited, 
+.breadcrumb a:hover, 
+.breadcrumb a:active{
+  color: #000;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Image Slider Styles--*/
+/*Remove space btwn carousel and menu*/
+.carousel {
+  top: -20px;
+  width: 100%;
+  margin: 0px auto;
+  padding: none;
+}
+
+.carousel-inner{
+  background-color: #644764;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+/*Centers carousel image*/
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+
+
+/*--Mission and Values Styles--*/
+#welcome{
+  background-color: #fefefe;
+}
+
+#welcome-header{
+  margin-top: -3px;
+  margin-bottom: 20px;
+}
+
+#welcome-text{
+  border-right: #644764 solid 5px;
+  margin-bottom: 20px;
+}
+
+#welcome p,
+#training p {
+  padding-bottom: 15px;
+}
+
+#welcome p,
+img {
+  margin: 0px 80px;
+}
+
+#directorPhoto {
+  padding: 12px;
+}
+
+#mission-title,
+#learn-more {
+  padding-left: 30px;
+}
+
+#mission-statement {
+  margin: 10px 30px;
+}
+
+#learn-more {
+  margin-top: 25px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--News and Events Styles--*/
+#news-events, #education-training{
+  background-color: rgba(239, 246, 249, 0.71);
+}
+
+#news-events{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: #644764 solid 4px;
+  border-bottom: #644764 solid 4px;
+}
+
+#events{
+  padding-bottom: 30px;
+}
+
+#news img,
+#events img {
+  margin: 0px 15px 0px 0px;
+}
+
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Our Programs Styles--*/
+#programs{
+  border-bottom: #644764 solid 4px;
+  padding-top: -10px;
+  padding-bottom: 35px;
+}
+
+#program-header {
+  margin-top: 20px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Education and Training Programs--*/
+#education-training{
+  padding: 10px 0 20px 0;
+}
+
+#education p,
+#health p,
+#family p {
+  margin: 15px 90px;
+}
+
+#training-text{
+  margin-left: 75px;
+}
+
+#training p {
+  margin: 15px 50px;
+}
+
+#training-img {
+  padding-bottom: 20px;
+}
+
+#training-list li {
+  padding-top: 5px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Footer--*/
+footer{
+  color: #fff;
+  background-color: #644764;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer a:visited, 
+#footer-menu a:visited{
+  color:#eee;
+  font-weight: bold;
+}
+
+footer a:hover, 
+#footer-menu a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+#contact {
+  margin-left: 40px;
+}
+
+#school-links {
+  list-style: none;
+  margin-left: -15px;
+}
+
+#footer-menu,
+#social {
+  list-style: none;
+}
+
+#footer-menu a, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+#social li i {
+  font-size: 22px;
+  color: #fff;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Consumer Advisory Council--*/
+#consumer-intro{
+  border-bottom: #eee solid 3px;
+}
+
+#consumer-intro p{
+  padding: 0px 570px 0px 15px;
+}
+
+#consumer-gallery{
+  padding-top: 20px;
+}
+
+#consumer-gallery ul li{
+  padding-right: 20px;
+  padding-bottom: 8px;
+  list-style: none;
+
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Employment Opportunities Syles--*/
+
+#employment{
+  margin-bottom: 150px;
+}
+
+#employment ul li{
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--News and Events Styles--*/
+.article-event-intro a, a:active {
+  color: #337ab7;
+}
+
+.article-event-intro a:hover{
+  color: #337ab7;
+  text-decoration: underline;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+  background-color: #B5D6E7;
+  color: #000;
+}
+
+#news-full-article{
+  padding: 0px 260px 50px 0px;
+}
+
+#article-img{
+  padding-bottom: 15px;
+  margin-left: 0px;
+}
+
+.register-btn{
+  margin-top: -30px;
+  margin-bottom: 15px;
+}
+
+#event-text, #program-text{
+  padding-right: 220px;
+}
+
+#event-text p, #program-text p{
+  padding-bottom: 20px;
+}
+
+.event-img, .program-img{
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.program-contact{
+  padding-left: 15px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Products Styles--*/
+
+#products{
+  margin-bottom: 30px;
+}
+
+.product-img{
+  width: 225px;
+  height: 220px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.dl-btn{
+  margin-top: 12px;
+}
+
+.pubs-icon{
+  font-size: 40px;
+}
+
+.pubs-row-adjust{
+  margin: 15px 50px 20px 50px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Publications Styles--*/
+#annual ul li, 
+#newsletter ul li, 
+#other-pubs ul li
+{
+  padding-bottom: 10px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Dontation Styles--*/
+#support-txt{
+  border-right: #644764 solid 5px;
+  padding-right: 50px;
+}
+
+#donate-contact{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#donate-address{
+  padding-left: 50px;
+}
+
+#donations{
+  margin-bottom: 50px;
+}
+
+.donate-divider{
+  border: #644764 solid 2px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+
+/*--Resources Styles--*/
+#general, 
+#federal, 
+#state{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Feedback Form Styles--*/
+#feedback-form{
+  margin: 30px 0px;
+}
+
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
+
+/*--Staff Styles--*/
+#staff-select ul{
+  list-style-type: none;
+}
+
+#staff-select li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 22px;
+}
+
+#staff-select a{
+  color: #644764;
+}
