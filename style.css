@@ -188,6 +188,10 @@ img {
   margin-top: 25px;
 }
 
+#missionReturnToTop{
+  padding-top: 175px;
+}
+
 /*-------------------------------------------------------
 ---------------------------------------------------------*/
 
@@ -212,6 +216,10 @@ img {
   margin: 0px 15px 0px 0px;
 }
 
+#newseventsReturnToTop{
+  margin-right: 80px;
+}
+
 
 /*-------------------------------------------------------
 ---------------------------------------------------------*/
@@ -226,6 +234,10 @@ img {
 
 #program-header {
   margin-top: 20px;
+}
+
+#programsReturnToTop{
+  margin-right: 80px;
 }
 
 /*-------------------------------------------------------
@@ -256,6 +268,10 @@ img {
 
 #training-list li {
   padding-top: 5px;
+}
+
+#edtrainingReturnToTop{
+  margin-right: 80px;
 }
 
 /*-------------------------------------------------------
