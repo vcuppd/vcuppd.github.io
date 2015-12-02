@@ -1,5 +1,3 @@
-//Change font sizes on the site//
-
 $(function(){
 	//this function will change the size of the text.
 	//you have to call it like this, changeSize("sm") or changeSize("m")
