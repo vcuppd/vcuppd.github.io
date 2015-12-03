@@ -456,6 +456,10 @@ footer a:hover,
 
 
 /*--Dontation Styles--*/
+#donate-intro{
+  padding-bottom: 35px;
+}
+
 #support-txt{
   border-right: #644764 solid 5px;
   padding-right: 50px;
