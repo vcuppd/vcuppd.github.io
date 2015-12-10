@@ -36,7 +36,7 @@ a:hover{
 }
 
 .navbar-default, #myCarousel{
-  border-bottom: #644764 solid 2px;
+  border-bottom: #644764 solid 5px;
 }
 
 #learn-more-list,
@@ -68,9 +68,48 @@ a:hover{
   padding: 10px;
 }
 
+#logo2{
+  display: block;
+  margin: 0 auto;
+  height: 160px;
+  padding: 10px;
+}
+
+#logo3{
+  height: 235px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 #header {
   background-color: #eff6f9; /*original color: #B5D6E7*/
   margin: 0px;
+}
+
+#text-adjust {
+  float: right;
+  padding-top: 15px;
+  padding-right: 40px;
+}
+
+#search-icon {
+  padding-top: 18px;
+  padding-right: 10px;
+}
+
+.search-area {
+  border-top: #000 solid 1px;
+  /*box-sizing: border-box;*/
+  background-color: #eff6f9;
+}
+
+.search-area .form-group {
+  float:right;padding:15px 0;
+}
+
+.search-area .form-group input {
+  width:300px;border:none;outline:0;margin-right:5px;
 }
 
 /*-------------------------------------------------------
@@ -84,31 +123,53 @@ a:hover{
   border: none;
 }
 
-.navbar .nav {
-  margin-bottom: 20px;
+.navbar .nav .btn{
+/*  margin-bottom: 20px;*/
+  margin-right: 6px;
 }
 
-.navbar-collapse {
-  padding-left: 170px;
+.nav>li>a:hover {
+    text-decoration: none;
+    /*background-color: #f4e1f4;*/
+    background-color: transparent;;
 }
 
-.navbar-header .btn {
-  margin-right: 5px;
-}
-  
-/*Lines up search input with menu*/
-.form-group {
-  margin-top: -8px;
+.navbar .navbar-brand {
+  color: #000;
 }
 
-/*Lines up search button with input*/
-#search-btn {
-  margin-left: -5px;
-  margin-top: -8px;
+.navbar .navbar-header>a:hover {
+  color: #9d9d9d;
+}
+
+.navbar-inverse {
+  color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #9d9d9d;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar  {
+  color: #8B8B8B;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #ccc;
 }
 
 .breadcrumb{
-  margin-top: -20px;
+/*  margin-top: -20px;*/
   border-top: #644764 solid 2px;
 }
 
@@ -118,6 +179,27 @@ a:hover{
 .breadcrumb a:active{
   color: #000;
 }
+
+/*.navbar-collapse {
+  padding-left: 170px;
+}*/
+
+/*.navbar-header .btn {
+  margin-right: 15px;
+}*/
+  
+/*Lines up search input with menu*/
+/*.form-group {
+  margin-top: -8px;
+}*/
+
+/*Lines up search button with input*/
+/*#search-btn {
+  margin-left: -5px;
+  margin-top: -8px;
+}*/
+
+
 
 /*-------------------------------------------------------
 ---------------------------------------------------------*/
@@ -143,7 +225,15 @@ a:hover{
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
+ 
 
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/*-------------------------------------------------------
+---------------------------------------------------------*/
 
 
 /*--Mission and Values Styles--*/

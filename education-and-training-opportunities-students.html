@@ -19,65 +19,63 @@
   
   <body>
 
-    <!--header-->
-    <div id="header" class="col-12-md">
+  <!--header alternative-->
+  <nav id="header" class="navbar navbar-inverse">
+    <div class="container-fluid">
       <div class="row">
-        <!--logo-->
-        <a href="index.html"><img id="logo" class="img-responsive" src="http://partnership.vcu.edu/media/partnership/img/header.png" alt="Partnership for People with Disabilities department logo" /></a>
-        <!--end logo-->
-      </div>
-
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-
-          <!-- Mobile Menu setup-->
+        <div class="col-xs-12 col-md-12 col-lg-12">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <!--menu toggle-->
+            <a class="navbar-brand" href="index.html">Partnership for People with Disabilities</a>
           </div>
+          <!--navbar-header-->
 
-          <!-- Collect the nav links, forms, and other content for mobile menu toggle -->
+          <!-- Menu links to toggle -->
           <div class="collapse navbar-collapse" id="navbar-collapse">
-            <div class="nav navbar-nav">
-              <a href="/#vcuIdentity" class="btn btn-default" role="button">Home</a>
-              <a href="/#welcome" class="btn btn-default" role="button">Mission and Values</a>
-              <a href="/#news-events" class="btn btn-default" role="button">News and Events</a>
-              <a href="/#programs" class="btn btn-default" role="button">Our Programs</a>
-              <a href="/#education-training" class="btn btn-default" role="button">Education and Training</a>
-            </div>
-
-
-            <form class="navbar-form navbar-left" role="search">
-              <div class="form-group">
-                <label for="searchtxt" class="sr-only">Search: </label>
-                <input type="text" class="form-control" id="searchtxt" placeholder="Search">
-              </div>
-              <button id="search-btn" type="submit" class="btn btn-default">Submit</button>
-            </form>
-
-            <!--text adjuster and text view-->
-            <div class="nav navbar-nav navbar-right">
-              <p id="text-adjust">View Text Version <strong>|</strong> Text size: 
-                  <strong>
-                    <a href="" class="tsize">S</a> 
-                    <a href="" class="tsize">M</a> 
-                    <a href="" class="tsize">L</a>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/#welcome">Mission and Values</a></li>
+              <li><a href="/#news-events">News and Events</a></li>
+              <li><a href="/#programs">Our Programs</a></li>
+              <li><a href="/#education-training">Education and Training</a></li>
+              <li><a data-toggle="collapse" data-target="#searchbar">Search</a></li> 
+              <li id="text-adjust">Text size: 
+                <strong>
+                  <a href="" class="tsize">S</a> 
+                  <a href="" class="tsize">M</a> 
+                  <a href="" class="tsize">L</a>
                 </strong>
-              </p>
-            </div>
-            <!--end text adjuster and text view-->
-
+              </li>
+            </ul>
+            <!--navigation menu-->
           </div>
-          <!--end navbar-collapse -->
+          <!-- /.navbar-collapse -->
         </div>
-        <!--end container-fluid -->
-      </nav>
+      </div>
+      <!-- Search bar -->
+      <div id="searchbar" class="search-area collapse">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search the Partnership site...">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button">Submit</button>
+                        </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--end Search bar-->
     </div>
-    <!--end header-->
+  </nav>
+<!--end header alternative-->
 
 
 

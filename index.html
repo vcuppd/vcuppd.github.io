@@ -11,78 +11,88 @@
 
     <script type="text/javascript" src="//www.pubapps.vcu.edu/identity/widgets/branding/black/responsive/js/vcubranding-black-1.0.js"></script>
     
+    <link rel="icon" href="/favicon.ico">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
+
   </head>
   
-
-
   <body>
-  <!--header-->
-  <div id="header" class="col-12-md">
-    <div class="row">
-      <!--logo-->
-      <a href="index.html"><img id="logo" class="img-responsive" src="images/logo.png" alt="Partnership for People with Disabilities department logo" /></a>
-      <!--end logo-->
-    </div>
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
+        <!--logo-->
+        <!-- <a href="index.html"><img id="logo" class="img-responsive" src="images/logo.png" alt="Partnership for People with Disabilities department logo" /></a> -->
+        <!--end logo-->
 
-        <!-- Mobile Menu setup-->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
+        <!--logo alternative 1-->
+        <!-- <a href="index.html"><img id="logo2" class="img-responsive" src="images/logo.png" alt="Partnership for People with Disabilities department logo" /></a> -->
+        <!--end logo alternative 1-->
 
-        <!-- Collect the nav links, forms, and other content for mobile menu toggle -->
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <div class="nav navbar-nav">
-            <a href="#vcuIdentity" class="btn btn-default" role="button">Home</a>
-            <a href="#welcome" class="btn btn-default" role="button">Mission and Values</a>
-            <a href="#news-events" class="btn btn-default" role="button">News and Events</a>
-            <a href="#programs" class="btn btn-default" role="button">Our Programs</a>
-            <a href="#education-training" class="btn btn-default" role="button">Education and Training</a>
+        <!--logo alternative 2-->
+       <!--  <a href="index.html"><img id="logo3" class="img-responsive" src="images/logo-combined.png" alt="Partnership for People with Disabilities department logo" />></a> -->
+        <!--end logo alternative 2-->
+
+
+<!--header alternative-->
+  <nav id="header" class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <!--menu toggle-->
+            <a class="navbar-brand" href="index.html">Partnership for People with Disabilities</a>
           </div>
+          <!--navbar-header-->
 
-
-          <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-              <label for="searchtxt" class="sr-only">Search: </label>
-              <input type="text" class="form-control" id="searchtxt" placeholder="Search">
-            </div>
-            <button id="search-btn" type="submit" class="btn btn-default">Submit</button>
-          </form>
-
-          <!--text adjuster and text view-->
-          <div class="nav navbar-nav navbar-right">
-            <p id="text-adjust">View Text Version <strong>|</strong> Text size: 
+          <!-- Menu links to toggle -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#welcome">Mission and Values</a></li>
+              <li><a href="#news-events">News and Events</a></li>
+              <li><a href="#programs">Our Programs</a></li>
+              <li><a href="#education-training">Education and Training</a></li>
+              <li><a data-toggle="collapse" data-target="#searchbar">Search</a></li> 
+              <li id="text-adjust">Text size: 
                 <strong>
                   <a href="" class="tsize">S</a> 
                   <a href="" class="tsize">M</a> 
                   <a href="" class="tsize">L</a>
-              </strong>
-            </p>
+                </strong>
+              </li>
+            </ul>
+            <!--navigation menu-->
           </div>
-          <!--end text adjuster and text view-->
-
+          <!-- /.navbar-collapse -->
         </div>
-        <!--end navbar-collapse -->
       </div>
-      <!--end container-fluid -->
-    </nav>
-  </div>
-  <!--end header-->
-
-
-
+      <!-- Search bar -->
+      <div id="searchbar" class="search-area collapse">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search the Partnership site...">
+                        <span class="input-group-btn">
+                          <button class="btn btn-default" type="button">Submit</button>
+                        </span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--end Search bar-->
+    </div>
+  </nav>
+<!--end header alternative-->
 
   <!--start slider area-->
   <div class="col-12-md">
@@ -99,13 +109,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="img-responsive center-block" src="http://lorempixel.com/980/320/people/7" alt="placeholder">
+            <img class="img-responsive center-block" src="images/partnership-slider.jpg" alt="Partnership for Disabilities Logo">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="http://lorempixel.com/980/320/people/4" alt="placeholder">
+            <img class="img-responsive center-block" src="images/ttac-slider.jpg" alt="VDOE Training and Technical Assistance Center (T/TAC) at VCU logo">
           </div>
           <div class="item">
-            <img class="img-responsive center-block" src="http://lorempixel.com/980/320/people/2" alt="placeholder">
+            <img class="img-responsive center-block" src="images/donate-slider.jpg" alt="Donate to the Partnership">
           </div>
         </div>
 
@@ -302,8 +312,11 @@
 
     <!--education-->
     <div id="education" class="col-md-4 text-left">
-      <h3 class="text-center">Early Intervention Education</h3>
-      <img class="img-resposive center-block" src="http://lorempixel.com/240/75" alt="placeholder image">
+      <a href="early-intervention-education-guide-by-your-side.html">
+        <h3 class="text-center">Early Intervention Education</h3>
+        <img class="img-resposive center-block" src="images/early-ed.jpg" alt="Two boys playing in a ball pit">
+      </a>
+
       <p class="text-justify">The Partnership for People with Disabilities is recognized throughout the Commonwealth of Virginia for its strong programs supporting families, individuals, and service providers in the Early Intervention/Education arena. All children, including those with disabilities, deserve the supports they need to excel in their homes, schools, and communities.</p>
 
       <p class="text-justify">To foster this level of success, the Partnership is working to equip family members, health care providers, preschool teachers, child care providers, and others serving who serve infants and young children and their families with the awareness, knowledge, and skills through technical assistance and training needed to make a difference in their lives.</p>
@@ -313,8 +326,11 @@
 
     <!--health-->
     <div id="health" class="col-md-4 text-center">
-      <h3 class="text-center">Health and Development</h3>
-      <img class="img-resposive center-block" src="http://lorempixel.com/240/75" alt="placeholder image">
+      <a href="health-and-development-abuse-and-neglect-of-children-with-disabilities.html">
+        <h3 class="text-center">Health and Development</h3>
+        <img class="img-resposive center-block" src="images/health.jpg" alt="">
+      </a>
+
       <p class="text-justify">All children benefit from receiving early and consistent services and supports that meet their developmental needs in a welcoming, inclusive environment. This is particularly true of health care. Children and adults with disabilities are at risk for having special health care needs that often are not adequately addressed by health care professionals.</p>
 
       <p class="text-justify">The Partnership for People with Disabilities is committed to implementing projects and activities that support the training of health care and related professionals and paraprofessionals in interdisciplinary settings. Our goal is to reduce the disparities that families and people with disabilities experience when accessing health care and related services.</p>
@@ -326,8 +342,11 @@
 
     <!--family-->
     <div id="family" class="col-md-4 text-right">
-      <h3 class="text-center">Family &amp; Individual <br/> Involvement and Support</h3>
-      <img class="img-resposive center-block" src="http://lorempixel.com/240/75" alt="placeholder image">
+      <a href="family-and-individual-involvement-and-support-ace-it.html">
+        <h3 class="text-center">Family &amp; Individual <br/> Involvement and Support</h3>
+        <img class="img-resposive center-block" src="images/family.jpg" alt="Woman carrying a baby in a hiking carrier">
+      </a>
+     
       <p class="text-justify">It is a strategic goal of the Partnership for People with Disabilities to promote community acceptance and support for individuals with disabilities and their families. Our work is guided by the principles of self determination and person-centered practices. The Partnership is committed to supporting individuals in making their voices heard.</p>
 
       <p class="text-justify">Through self-advocacy activities at the Partnership, youth and adults with disabilities have information and support to speak for themselves and be leaders in their home communities and in state-level activities. The Partnership is committed to helping agencies and organizations deliver person-centered and user-friendly services and supports in neighborhoods and communities.</p>
@@ -365,7 +384,7 @@
 
     <!--training list-->
     <div class="col-md-6">
-      <img id="training-img" class="img-responsive" src="http://lorempixel.com/300/140" alt="placeholder image">
+      <img id="training-img" class="img-responsive" src="images/ed-training.jpg" alt="Teacher coloring with two little girls">
 
       <ul id="training-list">
         <li><a href="education-and-training-opportunities-individuals-and-families.html">Opportunities for Individuals and Families</a> <i class="fa fa-angle-double-right"></i></li>
@@ -447,6 +466,7 @@
           <li><a href="#news-events">News and Events</a></li>
           <li><a href="#programs">Our Programs</a></li>
           <li><a href="#education-training">Education and Training</a></li>
+          <li><a href="">View Text Version</a></li>
         </ul>
       </div>
 
