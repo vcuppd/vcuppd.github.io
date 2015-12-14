@@ -194,27 +194,13 @@ a{
 ---------------------------------------------------*/
 
 /*--Consumer Advisory Council--*/
-#consumer-intro{
-  border-bottom: #eee solid 3px;
+
+#council-members{
+	margin-bottom: 20px;
 }
 
-#consumer-intro p{
-  padding: 0px 570px 0px 15px;
-}
-
-#consumer-gallery{
-  padding-top: 20px;
-}
-
-#consumer-gallery ul li{
-  padding-right: 20px;
-  padding-bottom: 8px;
-  list-style: none;
-
-}
-
-/*-------------------------------------------------------
----------------------------------------------------------*/
+/*---------------------------------------------------
+---------------------------------------------------*/
 
 /*--Employment Opportunities Syles--*/
 
