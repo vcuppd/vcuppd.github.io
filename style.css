@@ -199,24 +199,18 @@ a{
 	margin-bottom: 20px;
 }
 
+
 /*---------------------------------------------------
 ---------------------------------------------------*/
 
-/*--Employment Opportunities Syles--*/
+/*--Employment Opportunities--*/
 
 #employment{
-  margin-bottom: 150px;
+	margin-bottom: 145px;
 }
 
-#employment ul li{
-  list-style: none;
-  padding-bottom: 15px;
-}
-
-
-/*-------------------------------------------------------
----------------------------------------------------------*/
-
+/*---------------------------------------------------
+---------------------------------------------------*/
 
 /*--News and Events Styles--*/
 .article-event-intro a, a:active {
