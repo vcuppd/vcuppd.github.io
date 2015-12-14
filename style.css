@@ -46,6 +46,10 @@ a{
 	/*padding-top: 30px;*/
 }
 
+.border-right{
+	border-right: #644764 solid 2px;
+}
+
 .breadcrumb-border-top{
 	border-top: #644764 solid 2px;
 }
