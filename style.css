@@ -13,16 +13,9 @@
 
 /*--General Styles--*/
 
-/*.returnToTop{
-	padding-top: 10px;
-	padding-right: 30px;
-}
-*/
-
 a{
 	color: #000;
 }
-
 
 .returnToTop a{
 	color: #000;
@@ -42,20 +35,12 @@ a{
 	background-color: #eff6f9;
 }
 
-.row-padding-top{
-	/*padding-top: 30px;*/
-}
-
 .border-right{
 	border-right: #644764 solid 2px;
 }
 
 .breadcrumb-border-top{
 	border-top: #644764 solid 2px;
-}
-
-.list-group-item {
-	/*border: #644764 1px solid;*/
 }
 
 .list-group-item.active, 
@@ -153,10 +138,6 @@ a{
 /*---------------------------------------------------
 ---------------------------------------------------*/
 
-
-/*---------------------------------------------------
----------------------------------------------------*/
-
 /*--Consumer Advisory Council--*/
 
 #council-members{
@@ -166,19 +147,11 @@ a{
 /*---------------------------------------------------
 ---------------------------------------------------*/
 
-
-/*---------------------------------------------------
----------------------------------------------------*/
-
 /*--Employment Opportunities--*/
 
 #employment{
 	margin-bottom: 145px;
 }
-
-/*---------------------------------------------------
----------------------------------------------------*/
-
 
 /*---------------------------------------------------
 ---------------------------------------------------*/
@@ -199,107 +172,19 @@ a{
   color: #644764;
 }
 
-/*---------------------------------------------------
----------------------------------------------------*/
-
-
 
 /*---------------------------------------------------
 ---------------------------------------------------*/
 
+/*--Products--*/
 
-/*--Footer--*/
-
-
-.footer{
-	/*width: 100%;*/
-	background-color: #644764;
-	color: #fff;
-}
-
-.footer ul li{
-	list-style: none;
-}
-
-.footer a{
-	color: #fff;
-}
-
-.footer a i{
-	font-size: 18px;
-}
-
-#footer-bottom{
-	margin-left: -55px;
-
-
-/*---------------------------------------------------
----------------------------------------------------*/
-
-
-
-
-/*---------------------------------------------------
----------------------------------------------------*/
-
-/*--News and Events Styles--*/
-.article-event-intro a, a:active {
-  color: #337ab7;
-}
-
-.article-event-intro a:hover{
-  color: #337ab7;
-  text-decoration: underline;
-}
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
-  background-color: #B5D6E7;
-  color: #000;
-}
-
-#news-full-article{
-  padding: 0px 260px 50px 0px;
-}
-
-#article-img{
-  padding-bottom: 15px;
-  margin-left: 0px;
-}
-
-.register-btn{
-  margin-top: -30px;
-  margin-bottom: 15px;
-}
-
-#event-text, #program-text{
-  padding-right: 220px;
-}
-
-#event-text p, #program-text p{
-  padding-bottom: 20px;
-}
-
-.event-img, .program-img{
-  padding-bottom: 20px;
-  margin: 0px;
-}
-
-.program-contact{
-  padding-left: 15px;
-}
-
-/*-------------------------------------------------------
----------------------------------------------------------*/
-
-/*--Products Styles--*/
-
-#products{
-  margin-bottom: 30px;
+.products-margin-bottom{
+	margin-bottom: 145px;
 }
 
 .product-img{
-  width: 225px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   margin-left: 10px;
   margin-right: 20px;
 }
@@ -316,23 +201,20 @@ a{
   margin: 15px 50px 20px 50px;
 }
 
-/*-------------------------------------------------------
----------------------------------------------------------*/
+/*---------------------------------------------------
+---------------------------------------------------*/
 
+/*--Publications--*/
 
-/*--Publications Styles--*/
-#annual ul li, 
-#newsletter ul li, 
-#other-pubs ul li
-{
-  padding-bottom: 10px;
+.pubs-margin-bottom{
+	margin-bottom: 60px;
 }
 
-/*-------------------------------------------------------
----------------------------------------------------------*/
-
+/*---------------------------------------------------
+---------------------------------------------------*/
 
 /*--Dontation Styles--*/
+
 #donate-intro{
   padding-bottom: 35px;
 }
@@ -359,22 +241,69 @@ a{
   border: #644764 solid 2px;
 }
 
-/*-------------------------------------------------------
----------------------------------------------------------*/
+/*---------------------------------------------------
+---------------------------------------------------*/
 
+/*--News and Events Articles List--*/
 
-/*--Resources Styles--*/
-#general, 
-#federal, 
-#state{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.news-events-margin-bottom{
+	margin-bottom: 100px;
 }
 
-/*-------------------------------------------------------
----------------------------------------------------------*/
+.article-img{
+	padding: 20px;
+}
 
-/*--Feedback Form Styles--*/
+.event-img{
+	padding: 0 20px 20px 0;
+}
+
+#event-text{
+  padding: 20px;
+}
+
+#event-text p{
+  padding-bottom: 20px;
+}
+
+.register-btn{
+  margin-top: -30px;
+  margin-bottom: 15px;
+}
+
+
+/*---------------------------------------------------
+---------------------------------------------------*/
+
+/*--Footer--*/
+
+
+.footer{
+	/*width: 100%;*/
+	background-color: #644764;
+	color: #fff;
+}
+
+.footer ul li{
+	list-style: none;
+}
+
+.footer a{
+	color: #fff;
+}
+
+.footer a i{
+	font-size: 18px;
+}
+
+#footer-bottom{
+	margin-left: -55px;
+}
+
 #feedback-form{
   margin: 30px 0px;
 }
+
+/*---------------------------------------------------
+---------------------------------------------------*/
+
