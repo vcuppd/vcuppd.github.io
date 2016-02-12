@@ -32,4 +32,11 @@ $(function(){
 		var size = $(this).html().toLowerCase();
 		changeSize(size);
 	});
+
+
+	//Adjusts speed of the image slider
+	//7000 = 7 seconds
+	$('.carousel').carousel({
+	  interval: 7000
+	})
 });

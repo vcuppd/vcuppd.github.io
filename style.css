@@ -1,5 +1,7 @@
 /* Stylesheet for the Partnership for People with Disabilities Website */
 
+
+/*--Notes--*/
 /*--Option 1: Removes the horizontal scroll when in mobile view--*/
 /*--Reference: https://github.com/twbs/bootstrap/issues/10711 -- noblesilence commented on Oct 18, 2013--*/
 /*body{
@@ -19,19 +21,18 @@ a{
 
 .returnToTop a{
 	color: #000;
+	font-size: 16px;
 }
 
 .row-border-bottom{
 	border-bottom: #644764 solid 5px;
 }
 
-.row-border-top, 
-.container-border-top{
+.row-border-top, .container-border-top{
 	border-top: #644764 solid 5px;
 }
 
-.row-color, 
-.container-color{
+.row-color, .container-color{
 	background-color: #eff6f9;
 }
 
@@ -43,9 +44,7 @@ a{
 	border-top: #644764 solid 2px;
 }
 
-.list-group-item.active, 
-.list-group-item.active:focus, 
-.list-group-item.active:hover{
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
   background-color: #B5D6E7;
   color: #000;
 }
@@ -60,12 +59,35 @@ a{
 
 .menu-style li{
 	padding-bottom: 5px;
+	font-size: 16px;
 }
 
-.fixed-to-bottom{
-	top:auto;
-	bottom:100%;
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
 }
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.font-16{
+	font-size: 16px;
+}
+
+
+.content-bottom-padding{
+	padding-bottom: 310px;
+}
+
+.list-inline>li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 /*---------------------------------------------------
 ---------------------------------------------------*/
 
@@ -74,6 +96,20 @@ a{
 #nav{
 	background-color: #eff6f9;
 	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: #333;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #CDE1EA;
+    
 }
 
 #text-adjust{
@@ -101,7 +137,16 @@ a{
 /*--Mission and Values--*/
 
 #introText{
-	border-right: #644764 solid 5px;
+	/*border-right: #644764 solid 2px;*/
+	padding: 20px;
+}
+
+#missionAbout{
+	padding-left: 25px;
+}
+
+#missionHeader{
+	margin-top: 2px;
 }
 
 #learn-more-menu li{
@@ -114,6 +159,13 @@ a{
 
 #directorPhoto{
 	padding-right: 8px;
+	margin-right: 5px;
+}
+
+@media (min-width: 992px) {  
+	#directorPhoto{
+		visibility: none;
+	}
 }
 
 
@@ -131,8 +183,54 @@ a{
 
 /*--Our Programs--*/
 
+#programHeader{
+	padding-bottom: 25px;
+}
+
+.program-heading-img{
+	padding: 12px;
+}
+
+.panel-title{
+	text-transform: uppercase;
+}
+
+#comLivImg, #earlyChildImg, #edImg, #healthImg{
+	width: 100%;
+}
+
+#comLivBtn, #earlyChildBtn, #edBtn, #healthBtn{
+	border-radius: 0px;
+	border-color: transparent;
+	/*text-transform: uppercase;*/
+	color: #fff;
+}
+
+/*---------------------------------------------------
+---------------------------------------------------*/
+
+/*--Education and Training Opportunities--*/
+
+#education-training h2{
+	padding-bottom: 20px;
+}
+
+
+
+/*---------------------------------------------------
+---------------------------------------------------*/
+
+/*--Program Page--*/
+.program-content{
+	margin-bottom: 50px;
+}
+
+.program-padding-right{
+	padding: 10px;
+}
+
 .program-img-padding{
-	padding-bottom: 12px;
+	padding: 30px;
 }
 
 /*---------------------------------------------------
@@ -199,6 +297,10 @@ a{
 
 .pubs-row-adjust{
   margin: 15px 50px 20px 50px;
+}
+
+.annualReport{
+	padding: 20px;
 }
 
 /*---------------------------------------------------
@@ -277,7 +379,6 @@ a{
 
 /*--Footer--*/
 
-
 .footer{
 	/*width: 100%;*/
 	background-color: #644764;
@@ -296,14 +397,27 @@ a{
 	font-size: 18px;
 }
 
-#footer-bottom{
-	margin-left: -55px;
+.footer-menu{
+	padding-left: 40px;
 }
 
-#feedback-form{
+/*#footer-bottom{
+	margin-left: -55px;
+}*/
+
+/*#feedback-form{
   margin: 30px 0px;
+}*/
+
+.footer-padding{
+	padding-top: 25px;
+	padding-bottom: 65px;
 }
+
 
 /*---------------------------------------------------
 ---------------------------------------------------*/
+
+
+
 
